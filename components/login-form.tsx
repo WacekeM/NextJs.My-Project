@@ -82,24 +82,24 @@ export function LoginForm({
                   <span className="sr-only">Login with Meta</span>
                 </Button>
               </Field>
-              <FieldDescription className="text-center">
+              {/* <FieldDescription className="text-center">
                 Don&apos;t have an account? <a href="#">Sign up</a>
-              </FieldDescription>
+              </FieldDescription> */}
             </FieldGroup>
           </form>
           <div className="bg-muted relative hidden md:block">
             <img
-              src="/placeholder.svg"
+              src="/login.jpeg"
               alt="Image"
               className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
             />
           </div>
         </CardContent>
       </Card>
-      <FieldDescription className="px-6 text-center">
+      {/* <FieldDescription className="px-6 text-center">
         By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
         and <a href="#">Privacy Policy</a>.
-      </FieldDescription>
+      </FieldDescription> */}
     </div>
   )
 }
